@@ -10,7 +10,7 @@ export default () => {
                 <figure class="polaroid p3"><img src="img/3.JPG" alt="Polaroid 3"><figcaption>Essa sua energia me recarrega por completo</figcaption></figure>
                 </div>
 
-                <div class="mini-polaroids" style="display:flex;justify-content:center;gap:18px;margin:38px 0 18px;">
+                <div class="mini-polaroids" style="display:flex;justify-content:cienter;gap:18px;margin:38px 0 18px;">
                 <figure class="polaroid mini"><img src="img/5.JPG" alt="Mini 1"><figcaption>Seu sorriso</figcaption></figure>
                 <figure class="polaroid mini"><img src="img/10.JPG" alt="Mini 2"><figcaption>Seu abraço</figcaption></figure>
                 <figure class="polaroid mini"><img src="img/6.JPG" alt="Mini 3"><figcaption>Seu olhar</figcaption></figure>
