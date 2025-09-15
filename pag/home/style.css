@@ -1,0 +1,25 @@
+#page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; 
+}
+
+#openBtn{
+    background:#de5b87;
+    border:none;
+    padding:18px 28px;
+    border-radius:28px;
+    font-size:20px;
+    cursor:pointer;
+    box-shadow: none;
+    color:#fff
+}
+
+.heart-wrap{position:relative;width:160px;height:160px;display:flex;align-items:center;justify-content:center;margin-top:20px;opacity:0;transform:scale(.8);transition:all .6s}
+.heart{width:80px;height:80px;background:red;position:relative;transform:rotate(-45deg);animation:beat 1s infinite;box-shadow:0 8px 20px rgba(0,0,0,.25)}
+.heart:before,.heart:after{content:"";position:absolute;width:80px;height:80px;background:red;border-radius:50%}
+.heart:before{top:-40px;left:0}
+.heart:after{left:40px;top:0}
+.heart-wrap.show{opacity:1;transform:scale(1.05)}
+@keyframes beat{0%{transform:rotate(-45deg) scale(.95)}50%{transform:rotate(-45deg) scale(1.12)}100%{transform:rotate(-45deg) scale(.95)}}
