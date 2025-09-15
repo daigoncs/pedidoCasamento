@@ -6,12 +6,12 @@ export default () => {
 
                 <div class="polaroid-stage" aria-hidden="false">
                 <figure class="polaroid p1"><img src="img/4.JPG" alt="Polaroid 1"><figcaption>Eu amo quando você ativa o seu “modo 220”</figcaption></figure>
-                <figure class="polaroid p2"><img src="/img/20.JPG" alt="Polaroid 2"><figcaption>Que fala bastante, expressa tudo o que sente, que dança e que ri alto</figcaption></figure>
+                <figure class="polaroid p2"><img src="img/20.JPG" alt="Polaroid 2"><figcaption>Que fala bastante, expressa tudo o que sente, que dança e que ri alto</figcaption></figure>
                 <figure class="polaroid p3"><img src="img/3.JPG" alt="Polaroid 3"><figcaption>Essa sua energia me recarrega por completo</figcaption></figure>
                 </div>
 
                 <div class="mini-polaroids" style="display:flex;justify-content:cienter;gap:18px;margin:38px 0 18px;">
-                <figure class="polaroid mini"><img src="/img/6.jpg" alt="Mini 1"><figcaption>Seu sorriso</figcaption></figure>
+                <figure class="polaroid mini"><img src="img/6.jpg" alt="Mini 1"><figcaption>Seu sorriso</figcaption></figure>
                 <figure class="polaroid mini"><img src="img/10.JPG" alt="Mini 2"><figcaption>Seu abraço</figcaption></figure>
                 <figure class="polaroid mini"><img src="img/1.JPG" alt="Mini 3"><figcaption>Seu olhar</figcaption></figure>
                 </div>
