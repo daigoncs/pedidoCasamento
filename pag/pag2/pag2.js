@@ -41,7 +41,7 @@ export default () => {
         if (idx < text.length) {
             typingText.textContent += text[idx];
             idx++;
-            setTimeout(typeEffect, 35); // velocidade da digitação
+            setTimeout(typeEffect, 35); 
         }
     }
     typeEffect();
